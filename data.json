@@ -19,7 +19,9 @@
     "type": "House / site",
     "wv": "Possible",
     "angle": "KDR / dual-occ",
-    "note": "Beachside pocket; confirm land size."
+    "note": "Beachside pocket; confirm land size.",
+    "url": "https://www.google.com/search?q=Ocean+Street+Bondi+NSW+2026+for+sale",
+    "urlExact": false
   },
   {
     "id": "31-weonga-road-dover-heights",
@@ -41,7 +43,9 @@
     "type": "House",
     "wv": "Likely",
     "angle": "Prestige rebuild",
-    "note": "Clifftop street — strong ocean-view potential."
+    "note": "Clifftop street — strong ocean-view potential.",
+    "url": "https://www.google.com/search?q=31+Weonga+Road+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "19-blandford-avenue-bronte",
@@ -63,7 +67,9 @@
     "type": "House",
     "wv": "Possible",
     "angle": "KDR",
-    "note": "Walk to Bronte beach; check heritage."
+    "note": "Walk to Bronte beach; check heritage.",
+    "url": "https://www.google.com/search?q=19+Blandford+Avenue+Bronte+NSW+2024+for+sale",
+    "urlExact": false
   },
   {
     "id": "9-union-street-paddington",
@@ -85,7 +91,9 @@
     "type": "House / terrace",
     "wv": "Unlikely",
     "angle": "Reno / add value",
-    "note": "Likely heritage conservation area."
+    "note": "Likely heritage conservation area.",
+    "url": "https://www.google.com/search?q=9+Union+Street+Paddington+NSW+2021+for+sale",
+    "urlExact": false
   },
   {
     "id": "137-o-sullivan-road-bellevue-hill",
@@ -107,7 +115,9 @@
     "type": "House",
     "wv": "Possible",
     "angle": "Prestige rebuild",
-    "note": "Elevated — possible harbour glimpses."
+    "note": "Elevated — possible harbour glimpses.",
+    "url": "https://www.google.com/search?q=137+O%27Sullivan+Road+Bellevue+Hill+NSW+2023+for+sale",
+    "urlExact": false
   },
   {
     "id": "12-cliff-street-watsons-bay",
@@ -129,7 +139,9 @@
     "type": "House",
     "wv": "Likely",
     "angle": "Prestige rebuild",
-    "note": "Harbourside; premium aspect."
+    "note": "Harbourside; premium aspect.",
+    "url": "https://www.google.com/search?q=12+Cliff+Street+Watsons+Bay+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "39-surrey-street-darlinghurst",
@@ -151,7 +163,9 @@
     "type": "House / terrace",
     "wv": "Unlikely",
     "angle": "Reno / boutique",
-    "note": "Inner-city terrace; conservation area likely."
+    "note": "Inner-city terrace; conservation area likely.",
+    "url": "https://www.google.com/search?q=39+Surrey+Street+Darlinghurst+NSW+2010+for+sale",
+    "urlExact": false
   },
   {
     "id": "526-bronte-road-bronte",
@@ -173,7 +187,9 @@
     "type": "House / mixed",
     "wv": "Unlikely",
     "angle": "Shop-top / mixed use",
-    "note": "Main-road frontage — check B1/E1 zoning."
+    "note": "Main-road frontage — check B1/E1 zoning.",
+    "url": "https://www.google.com/search?q=526+Bronte+Road+Bronte+NSW+2024+for+sale",
+    "urlExact": false
   },
   {
     "id": "4-blackwood-avenue-clovelly",
@@ -195,7 +211,9 @@
     "type": "House",
     "wv": "Possible",
     "angle": "KDR / dual-occ",
-    "note": "Pair with No.9 below for amalgamation."
+    "note": "Pair with No.9 below for amalgamation.",
+    "url": "https://www.google.com/search?q=4+Blackwood+Avenue+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "32b-carlotta-road-double-bay",
@@ -217,7 +235,9 @@
     "type": "Apartment / site",
     "wv": "Possible",
     "angle": "Boutique units",
-    "note": "Blue-chip Double Bay; check R3/R4."
+    "note": "Blue-chip Double Bay; check R3/R4.",
+    "url": "https://www.google.com/search?q=32B+Carlotta+Road+Double+Bay+NSW+2028+for+sale",
+    "urlExact": false
   },
   {
     "id": "9-blackwood-avenue-clovelly",
@@ -239,7 +259,9 @@
     "type": "House",
     "wv": "Possible",
     "angle": "KDR / dual-occ",
-    "note": "Adjacent to No.4 — amalgamation play."
+    "note": "Adjacent to No.4 — amalgamation play.",
+    "url": "https://www.google.com/search?q=9+Blackwood+Avenue+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "30-34-stephen-road-paddington",
@@ -261,161 +283,9 @@
     "type": "Development site",
     "wv": "Unlikely",
     "angle": "Multi-unit site",
-    "note": "Multi-lot range — potential amalgamated site."
-  },
-  {
-    "id": "8-20-wylde-street-potts-point",
-    "added": 12,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "8/20 Wylde Street",
-    "sub": "Potts Point",
-    "pc": "2011",
-    "co": "City of Sydney",
-    "type": "Apartment",
-    "wv": "Likely",
-    "angle": "Value-add unit",
-    "note": "Harbourside; check strata & views."
-  },
-  {
-    "id": "1-22-24-billyard-avenue-elizabeth-bay",
-    "added": 13,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "1/22-24 Billyard Avenue",
-    "sub": "Elizabeth Bay",
-    "pc": "2011",
-    "co": "City of Sydney",
-    "type": "Apartment",
-    "wv": "Likely",
-    "angle": "Prestige unit",
-    "note": "Waterfront Billyard Ave."
-  },
-  {
-    "id": "5-22-read-street-bronte",
-    "added": 14,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "5/22 Read Street",
-    "sub": "Bronte",
-    "pc": "2024",
-    "co": "Waverley",
-    "type": "Apartment",
-    "wv": "Possible",
-    "angle": "Value-add unit",
-    "note": "Walk to Bronte; boutique block."
-  },
-  {
-    "id": "1402-568-oxford-street-bondi-junction",
-    "added": 15,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "1402/568 Oxford Street",
-    "sub": "Bondi Junction",
-    "pc": "2022",
-    "co": "Waverley",
-    "type": "Apartment (high-rise)",
-    "wv": "Likely",
-    "angle": "Value-add unit",
-    "note": "Level 14 — district/ocean views."
-  },
-  {
-    "id": "1-403-clovelly-road-clovelly",
-    "added": 16,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "1/403 Clovelly Road",
-    "sub": "Clovelly",
-    "pc": "2031",
-    "co": "Randwick",
-    "type": "Apartment",
-    "wv": "Unlikely",
-    "angle": "Value-add unit",
-    "note": "Ground-floor unit; check scope."
-  },
-  {
-    "id": "26-118-wallis-street-woollahra",
-    "added": 17,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "26/118 Wallis Street",
-    "sub": "Woollahra",
-    "pc": "2025",
-    "co": "Woollahra",
-    "type": "Apartment",
-    "wv": "Unlikely",
-    "angle": "Value-add unit",
-    "note": "Woollahra village; boutique block."
-  },
-  {
-    "id": "7-107-macpherson-street-bronte",
-    "added": 18,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "Coming soon",
-    "a": "7/107 Macpherson Street",
-    "sub": "Bronte",
-    "pc": "2024",
-    "co": "Waverley",
-    "type": "Apartment",
-    "wv": "Possible",
-    "angle": "Value-add unit",
-    "note": "Confirm council boundary."
+    "note": "Multi-lot range — potential amalgamated site.",
+    "url": "https://www.google.com/search?q=30-34+Stephen+Road+Paddington+NSW+2021+for+sale",
+    "urlExact": false
   },
   {
     "id": "62-ocean-street-woollahra",
@@ -438,7 +308,9 @@
     "wv": "Likely",
     "angle": "Landmark harbour-view site",
     "note": "‘The Rancliffe’ — sweeping harbour/park/skyline vistas. EOI (JLL).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.developmentready.com.au/properties/62-ocean-street-woollahra-nsw-2025-251740",
+    "urlExact": true
   },
   {
     "id": "55-57-63-ocean-avenue-double-bay",
@@ -461,7 +333,9 @@
     "wv": "Possible",
     "angle": "R3 uplift — up to 8 storeys",
     "note": "Low & Mid-Rise Housing uplift potential. EOI (Highland Commercial).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.commercialrealestate.com.au/property/55-57-63-ocean-avenue-double-bay-nsw-2028-2020628365",
+    "urlExact": true
   },
   {
     "id": "11-13-ocean-avenue-double-bay",
@@ -484,7 +358,9 @@
     "wv": "Possible",
     "angle": "12 apartments on site",
     "note": "Existing 12 apartments; redevelopment potential. EOI (Cushman & Wakefield).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.developmentready.com.au/properties/11-13-ocean-avenue-double-bay-nsw-2028-251300",
+    "urlExact": true
   },
   {
     "id": "96-campbell-parade-bondi-beach",
@@ -507,7 +383,9 @@
     "wv": "Likely",
     "angle": "Absolute beachfront freehold",
     "note": "Six units; one of the last Bondi Beach beachfront freeholds. (Cushman & Wakefield).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.developmentready.com.au/properties/96-campbell-parade-bondi-beach-nsw-2026-244629",
+    "urlExact": true
   },
   {
     "id": "31-33-35-37-39-hall-street-bondi-beach",
@@ -530,7 +408,9 @@
     "wv": "Possible",
     "angle": "Amalgamated Hall St site",
     "note": "~30m Hall Street frontage. Contact agent.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=31-33%2C+35-37+%26+39+Hall+Street+Bondi+Beach+NSW+2026+for+sale",
+    "urlExact": false
   },
   {
     "id": "148-francis-street-bondi-beach",
@@ -553,7 +433,9 @@
     "wv": "Possible",
     "angle": "Five apartments",
     "note": "1x2br, 2x3br, 2x3br+sunroom. Contact agent.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.commercialrealestate.com.au/property/148-francis-street-bondi-beach-nsw-2026-2020774539",
+    "urlExact": true
   },
   {
     "id": "41-hall-street-bondi-beach",
@@ -576,7 +458,9 @@
     "wv": "Unlikely",
     "angle": "Approved 3-storey commercial",
     "note": "Contact agent.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.commercialrealestate.com.au/property/41-hall-street-bondi-beach-nsw-2026-2020636846",
+    "urlExact": true
   },
   {
     "id": "2-wills-avenue-waverley",
@@ -599,7 +483,9 @@
     "wv": "Unlikely",
     "angle": "4-apartment block, fully leased",
     "note": "Contact agent.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.commercialrealestate.com.au/property/2-wills-avenue-waverley-nsw-2024-2020575941",
+    "urlExact": true
   },
   {
     "id": "19-captain-pipers-road-vaucluse",
@@ -622,7 +508,9 @@
     "wv": "Possible",
     "angle": "DA approved 4x2br apartments",
     "note": "Vaucluse harbourside. (Commercial auction).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.commercialrealestate.com.au/property/19-captain-pipers-road-vaucluse-nsw-2030-2020743782",
+    "urlExact": true
   },
   {
     "id": "6-8-glen-avenue-randwick",
@@ -645,7 +533,9 @@
     "wv": "Unlikely",
     "angle": "Apartment / townhouse site",
     "note": "EOI (Highland Commercial).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.developmentready.com.au/properties/6-8-glen-avenue-randwick-nsw-2031-250740",
+    "urlExact": true
   },
   {
     "id": "15-17-strachan-street-kingsford",
@@ -668,7 +558,9 @@
     "wv": "Unlikely",
     "angle": "DA approved apartment site",
     "note": "EOI (NG Farah).",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.developmentready.com.au/properties/15-17-strachan-street-kingsford-nsw-2032-242056",
+    "urlExact": true
   },
   {
     "id": "50-54-chaleyer-street-rose-bay",
@@ -691,7 +583,9 @@
     "wv": "Possible",
     "angle": "24-unit block",
     "note": "Large Rose Bay block; 13 car spaces.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=50-54+Chaleyer+Street+Rose+Bay+NSW+2029+for+sale",
+    "urlExact": false
   },
   {
     "id": "25-macpherson-street-waverley",
@@ -714,7 +608,9 @@
     "wv": "Unlikely",
     "angle": "15-unit block",
     "note": "Whole boutique block.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=25+Macpherson+Street+Waverley+NSW+2024+for+sale",
+    "urlExact": false
   },
   {
     "id": "459-bronte-road-bronte",
@@ -737,7 +633,9 @@
     "wv": "Unlikely",
     "angle": "9-unit block",
     "note": "Whole block; verify land size.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=459+Bronte+Road+Bronte+NSW+2024+for+sale",
+    "urlExact": false
   },
   {
     "id": "119-123-belmore-road-randwick",
@@ -760,7 +658,9 @@
     "wv": "Unlikely",
     "angle": "7-unit block",
     "note": "Whole block.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=119-123+Belmore+Road+Randwick+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "10-12-campbell-parade-bondi-beach",
@@ -783,7 +683,9 @@
     "wv": "Likely",
     "angle": "6 units, beachfront",
     "note": "Campbell Parade beachfront strip.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=10-12+Campbell+Parade+Bondi+Beach+NSW+2026+for+sale",
+    "urlExact": false
   },
   {
     "id": "57-lamrock-avenue-bondi-beach",
@@ -806,7 +708,9 @@
     "wv": "Possible",
     "angle": "9-unit block",
     "note": "6 car spaces; walk to beach.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=57+Lamrock+Avenue+Bondi+Beach+NSW+2026+for+sale",
+    "urlExact": false
   },
   {
     "id": "1-11-20-kobada-road-dover-heights",
@@ -829,7 +733,9 @@
     "wv": "Possible",
     "angle": "Whole strata block (11 units)",
     "note": "Large holding — verify land size & strata.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=1-11%2F20+Kobada+Road+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "50-lancaster-road-dover-heights",
@@ -852,7 +758,9 @@
     "wv": "Possible",
     "angle": "KDR",
     "note": "Contact agent — verify live status.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=50+Lancaster+Road+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "3-weonga-road-dover-heights",
@@ -875,7 +783,9 @@
     "wv": "Likely",
     "angle": "Clifftop KDR",
     "note": "Same clifftop street as No.31.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=3+Weonga+Road+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "147-dover-road-dover-heights",
@@ -898,7 +808,9 @@
     "wv": "Possible",
     "angle": "KDR",
     "note": "Verify live status.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=147+Dover+Road+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "14-portland-street-dover-heights",
@@ -921,7 +833,9 @@
     "wv": "Possible",
     "angle": "KDR",
     "note": "Prior auction date 2025 — may be sold; verify.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=14+Portland+Street+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "14-elvina-street-dover-heights",
@@ -944,7 +858,9 @@
     "wv": "Possible",
     "angle": "KDR",
     "note": "Verify live status.",
-    "found": "2026-07-14"
+    "found": "2026-07-14",
+    "url": "https://www.google.com/search?q=14+Elvina+Street+Dover+Heights+NSW+2030+for+sale",
+    "urlExact": false
   },
   {
     "id": "1-melrose-parade-clovelly",
@@ -967,7 +883,9 @@
     "wv": "Likely",
     "angle": "Prestige house",
     "note": "PPD · Alexander Phillips · 4 bed / 3 bath / 2 car. Near-new architectural home, rooftop terrace, ocean views.",
-    "found": "2026-07-16"
+    "found": "2026-07-16",
+    "url": "https://www.google.com/search?q=1+Melrose+Parade+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "14-knox-street-clovelly",
@@ -990,7 +908,9 @@
     "wv": "Possible",
     "angle": "Reno / KDR",
     "note": "Alison Coopes · 5 bed / 3 bath / 2 car.",
-    "found": "2026-07-16"
+    "found": "2026-07-16",
+    "url": "https://www.google.com/search?q=14+Knox+Street+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "31-clifton-road-clovelly",
@@ -1013,7 +933,9 @@
     "wv": "Possible",
     "angle": "KDR potential",
     "note": "Sydney Sotheby's · Nicholas Wise · 5 bed / 2 bath / 2 car. Freshly listed (added within 24h).",
-    "found": "2026-07-16"
+    "found": "2026-07-16",
+    "url": "https://www.google.com/search?q=31+Clifton+Road+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "40-melrose-parade-clovelly",
@@ -1036,30 +958,9 @@
     "wv": "Possible",
     "angle": "KDR / dev site",
     "note": "Ray White · Angus Gorrie · 4 bed / 2 bath / 2 car. Older cottage — development/KDR potential.",
-    "found": "2026-07-16"
-  },
-  {
-    "id": "18-44-46-melrose-parade-clovelly",
-    "added": 46,
-    "zone": "",
-    "fsr": "",
-    "height": "",
-    "land": "101 sqm",
-    "price": "",
-    "daNo": "",
-    "auction": "",
-    "inspect": "",
-    "notes": "",
-    "status": "On market",
-    "a": "18/44-46 Melrose Parade",
-    "sub": "Clovelly",
-    "pc": "2031",
-    "co": "Randwick",
-    "type": "Apartment",
-    "wv": "Possible",
-    "angle": "Value-add unit",
-    "note": "Ray White · Nick Wiggan · 2 bed / 1 bath / 1 car. 101sqm apartment.",
-    "found": "2026-07-16"
+    "found": "2026-07-16",
+    "url": "https://www.google.com/search?q=40+Melrose+Parade+Clovelly+NSW+2031+for+sale",
+    "urlExact": false
   },
   {
     "id": "404-422-anzac-parade-2-2a-middle-street-kingsford",
@@ -1082,7 +983,9 @@
     "wv": "Unlikely",
     "angle": "Landmark 5:1 FSR site (+bonuses)",
     "note": "Regent Hotel & Development Site; ~$145k/wk holding income. EOI (Colliers / JLL).",
-    "found": "2026-07-19"
+    "found": "2026-07-19",
+    "url": "https://www.developmentready.com.au/properties/404-422-anzac-parade-2-2a-middle-street-kingsford-nsw-2032-244756",
+    "urlExact": true
   },
   {
     "id": "629-631-old-south-head-road-rose-bay",
@@ -1105,7 +1008,9 @@
     "wv": "Possible",
     "angle": "DA-approved 7 luxury apartments",
     "note": "Colliers — DA-approved residential development site. Confirm approval currency & terms.",
-    "found": "2026-07-19"
+    "found": "2026-07-19",
+    "url": "https://www.google.com/search?q=629-631+Old+South+Head+Road+Rose+Bay+NSW+2029+for+sale",
+    "urlExact": false
   },
   {
     "id": "46-hall-street-bondi-beach",
@@ -1128,7 +1033,9 @@
     "wv": "Possible",
     "angle": "Mixed-use freehold",
     "note": "For sale (Oxford Agency). Hall St precinct, walk to beach.",
-    "found": "2026-07-19"
+    "found": "2026-07-19",
+    "url": "https://www.developmentready.com.au/properties/46-hall-street-bondi-beach-nsw-2026-1648768442",
+    "urlExact": true
   },
   {
     "id": "345-351-anzac-parade-kingsford",
@@ -1151,7 +1058,9 @@
     "wv": "Unlikely",
     "angle": "B2 shop-top / mixed-use site",
     "note": "B2 Local Centre. EOI (Ray White Park Coast East).",
-    "found": "2026-07-19"
+    "found": "2026-07-19",
+    "url": "https://www.developmentready.com.au/properties/345-351-anzac-parade-kingsford-nsw-2032-66470",
+    "urlExact": true
   },
   {
     "id": "106-glenayr-avenue-64-glasgow-avenue-bondi-beach",
@@ -1174,6 +1083,8 @@
     "wv": "Unlikely",
     "angle": "Corner freehold holding (913 sqm)",
     "note": "Two corner retail freeholds; ~$939,916 pa gross income. Contact agent.",
-    "found": "2026-07-19"
+    "found": "2026-07-19",
+    "url": "https://www.google.com/search?q=106+Glenayr+Avenue+%26+64+Glasgow+Avenue+Bondi+Beach+NSW+2026+for+sale",
+    "urlExact": false
   }
 ]

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VANTAGE — Rose Construction eastern-suburbs feed</title>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#16212e; --panel2:#1c2a3a; --line:#26374a;
+    --ink:#eaf1f8; --muted:#9fb3c8; --accent:#d8a24a; --accent2:#4a9fd8;
+    --good:#3fb27f; --warn:#e0913a; --chip:#22344a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.45}
+  header{padding:22px 20px 8px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .brand h1{margin:0;font-size:22px;letter-spacing:3px;font-weight:700}
+  .brand .sub{color:var(--muted);font-size:12.5px}
+  .tabs{display:flex;gap:6px;margin-top:14px}
+  .tab{background:var(--panel);border:1px solid var(--line);color:var(--muted);padding:8px 16px;border-radius:8px 8px 0 0;
+       cursor:pointer;font-size:14px;font-weight:600}
+  .tab.active{background:var(--panel2);color:var(--ink);border-bottom-color:var(--panel2)}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:12px 20px;background:var(--panel2);border-bottom:1px solid var(--line);
+           position:sticky;top:112px;z-index:4}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .fbtn{background:var(--chip);border:1px solid var(--line);color:var(--muted);padding:6px 12px;border-radius:20px;cursor:pointer;font-size:13px}
+  .fbtn.active{background:var(--accent);color:#1a1206;border-color:var(--accent);font-weight:700}
+  .fbtn .n{opacity:.7;font-size:11px;margin-left:4px}
+  .spacer{flex:1}
+  input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:7px 12px;border-radius:8px;font-size:13px;min-width:180px}
+  label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;cursor:pointer;user-select:none}
+  main{padding:16px 20px 60px}
+  .count{color:var(--muted);font-size:13px;margin:4px 2px 14px}
+  .group{margin:0 0 26px}
+  .group h2{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);border-bottom:1px solid var(--line);
+            padding-bottom:6px;margin:0 0 12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 15px;display:flex;flex-direction:column;gap:8px}
+  .card .addr{font-size:15px;font-weight:700;margin:0}
+  .card .loc{color:var(--muted);font-size:12.5px;margin:-4px 0 0}
+  .badges{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0}
+  .badge{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
+  .badge.type{background:#20344a;color:#bcd6ef}
+  .badge.wv{background:#123026;color:#7fe0b3}
+  .badge.wv.Possible{background:#2b2a12;color:#e6d67f}
+  .badge.wv.Unlikely{background:#2a1c1c;color:#e0a0a0}
+  .badge.kind{background:#2a2038;color:#d3b4f0}
+  .badge.kind.Major{background:#3a2018;color:#f0b48c}
+  .meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+  .meta b{color:var(--ink);font-weight:600}
+  .note{font-size:12.5px;color:#cdd9e6;margin:2px 0 0}
+  .links{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+  a.btn{display:inline-flex;align-items:center;gap:5px;text-decoration:none;font-size:12.5px;font-weight:600;
+        padding:6px 11px;border-radius:8px;border:1px solid var(--line)}
+  a.btn.primary{background:var(--accent);color:#1a1206;border-color:var(--accent)}
+  a.btn.ghost{background:transparent;color:var(--accent2)}
+  a.btn:hover{filter:brightness(1.08)}
+  .approx{font-size:10.5px;color:var(--warn);margin-left:2px}
+  footer{color:var(--muted);font-size:11.5px;padding:0 20px 30px;max-width:900px}
+  .hidden{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>VANTAGE</h1>
+    <span class="sub">Rose Construction · eastern-suburbs listings &amp; DA feed · <span id="updated"></span></span>
+  </div>
+  <div class="tabs">
+    <div class="tab active" data-tab="listings" onclick="switchTab('listings')">Listings</div>
+    <div class="tab" data-tab="das" onclick="switchTab('das')">Development Applications</div>
+  </div>
+</header>
+
+<div class="toolbar" id="toolbar-listings">
+  <div class="filters" id="listing-filters"></div>
+  <label class="toggle"><input type="checkbox" id="waterOnly"> Water views only</label>
+  <div class="spacer"></div>
+  <input type="search" id="searchListings" placeholder="Search address / suburb…">
+</div>
+
+<div class="toolbar hidden" id="toolbar-das">
+  <div class="filters" id="da-filters"></div>
+  <div class="spacer"></div>
+  <input type="search" id="searchDas" placeholder="Search address / suburb / DA…">
+</div>
+
+<main>
+  <div class="count" id="count"></div>
+  <div id="listings-view"></div>
+  <div id="das-view" class="hidden"></div>
+</main>
+
+<footer>
+  Whole blocks only — individual strata units are excluded from this feed. All land sizes, price guides, auction dates and
+  DA details are indicative and must be confirmed with the agent / council / NSW Planning Portal. DA links open the
+  PlanningAlerts record; “Plans / docs” opens the council’s source record where the drawings are lodged.
+  Some historical listing links resolve via an address search (marked ≈); items added from 24 Jul 2026 link directly to the exact listing.
+</footer>
+
+<script>
+let LISTINGS=[], DAS=[];
+let listingFilter='all', daFilter='all';
+
+function grp(type){
+  const t=(type||'').toLowerCase();
+  if(/develop|site/.test(t)) return 'Development sites';
+  if(/block|freehold/.test(t)) return 'Blocks of units';
+  if(/house|terrace/.test(t)) return 'Houses';
+  if(/apartment/.test(t)) return 'Units';
+  return 'Other';
+}
+const GROUP_ORDER=['Development sites','Blocks of units','Houses','Units','Other'];
+
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+function listingCard(o){
+  const g=grp(o.type);
+  const bits=[];
+  if(o.land) bits.push(`<span><b>Land</b> ${esc(o.land)}</span>`);
+  if(o.price) bits.push(`<span><b>Guide</b> ${esc(o.price)}</span>`);
+  if(o.fsr) bits.push(`<span><b>FSR</b> ${esc(o.fsr)}</span>`);
+  if(o.zone) bits.push(`<span><b>Zone</b> ${esc(o.zone)}</span>`);
+  if(o.auction) bits.push(`<span><b>Auction</b> ${esc(o.auction)}</span>`);
+  if(o.inspect) bits.push(`<span><b>Inspect</b> ${esc(o.inspect)}</span>`);
+  if(o.daNo) bits.push(`<span><b>DA</b> ${esc(o.daNo)}</span>`);
+  const approx = o.urlExact? '' : ' <span class="approx" title="Resolves via address search">≈</span>';
+  return `<div class="card">
+    <p class="addr">${esc(o.a)}</p>
+    <p class="loc">${esc(o.sub)} ${esc(o.pc)} · ${esc(o.co)}</p>
+    <div class="badges">
+      <span class="badge type">${esc(o.type)}</span>
+      ${o.wv?`<span class="badge wv ${esc(o.wv)}">Water: ${esc(o.wv)}</span>`:''}
+      ${o.status?`<span class="badge">${esc(o.status)}</span>`:''}
+    </div>
+    ${o.angle?`<div class="meta"><span><b>Angle</b> ${esc(o.angle)}</span></div>`:''}
+    ${bits.length?`<div class="meta">${bits.join('')}</div>`:''}
+    ${o.note?`<p class="note">${esc(o.note)}</p>`:''}
+    <div class="links">
+      <a class="btn primary" href="${esc(o.url)}" target="_blank" rel="noopener">View listing ↗${approx}</a>
+    </div>
+  </div>`;
+}
+
+function daCard(o){
+  const bits=[];
+  if(o.da) bits.push(`<span><b>DA</b> ${esc(o.da)}</span>`);
+  if(o.lodged) bits.push(`<span><b>Lodged</b> ${esc(o.lodged)}</span>`);
+  if(o.cost) bits.push(`<span><b>Cost</b> ${esc(o.cost)}</span>`);
+  if(o.architect) bits.push(`<span><b>Architect</b> ${esc(o.architect)}</span>`);
+  return `<div class="card">
+    <p class="addr">${esc(o.addr)}</p>
+    <p class="loc">${esc(o.sub)} ${esc(o.pc)} · ${esc(o.co)}</p>
+    <div class="badges">
+      <span class="badge kind ${esc(o.kind)}">${esc(o.kind)}</span>
+      ${o.status?`<span class="badge">${esc(o.status)}</span>`:''}
+    </div>
+    ${bits.length?`<div class="meta">${bits.join('')}</div>`:''}
+    ${o.works?`<p class="note">${esc(o.works)}</p>`:''}
+    <div class="links">
+      ${o.daUrl?`<a class="btn primary" href="${esc(o.daUrl)}" target="_blank" rel="noopener">DA record ↗</a>`:''}
+      ${o.drawings?`<a class="btn ghost" href="${esc(o.drawings)}" target="_blank" rel="noopener">Plans / docs ↗</a>`:''}
+    </div>
+  </div>`;
+}
+
+function renderListings(){
+  const q=(document.getElementById('searchListings').value||'').toLowerCase();
+  const waterOnly=document.getElementById('waterOnly').checked;
+  let items=LISTINGS.filter(o=>{
+    if(listingFilter!=='all' && grp(o.type)!==listingFilter) return false;
+    if(waterOnly && !(o.wv==='Likely'||o.wv==='Possible')) return false;
+    if(q){const hay=(o.a+' '+o.sub+' '+o.co+' '+(o.angle||'')+' '+(o.note||'')).toLowerCase(); if(!hay.includes(q)) return false;}
+    return true;
+  });
+  // newest first
+  items.sort((a,b)=>(b.added||0)-(a.added||0));
+  const byGroup={};
+  items.forEach(o=>{(byGroup[grp(o.type)] ||= []).push(o);});
+  let html='';
+  GROUP_ORDER.forEach(g=>{
+    if(!byGroup[g]||!byGroup[g].length) return;
+    html+=`<div class="group"><h2>${g} · ${byGroup[g].length}</h2><div class="grid">${byGroup[g].map(listingCard).join('')}</div></div>`;
+  });
+  document.getElementById('listings-view').innerHTML = html || `<div class="count">No listings match.</div>`;
+  document.getElementById('count').textContent = `${items.length} listing${items.length!==1?'s':''} shown`;
+}
+
+function renderDas(){
+  const q=(document.getElementById('searchDas').value||'').toLowerCase();
+  let items=DAS.filter(o=>{
+    if(daFilter!=='all' && o.kind!==daFilter) return false;
+    if(q){const hay=(o.addr+' '+o.sub+' '+o.co+' '+(o.da||'')+' '+(o.works||'')).toLowerCase(); if(!hay.includes(q)) return false;}
+    return true;
+  });
+  items.sort((a,b)=>(b.added||0)-(a.added||0));
+  document.getElementById('das-view').innerHTML =
+    `<div class="grid">${items.map(daCard).join('')}</div>` ;
+  document.getElementById('count').textContent = `${items.length} DA${items.length!==1?'s':''} shown`;
+}
+
+function buildFilters(){
+  const g={all:LISTINGS.length};
+  LISTINGS.forEach(o=>{const k=grp(o.type); g[k]=(g[k]||0)+1;});
+  const order=['all',...GROUP_ORDER.filter(x=>g[x])];
+  const labels={all:'All',...Object.fromEntries(GROUP_ORDER.map(x=>[x,x]))};
+  document.getElementById('listing-filters').innerHTML = order.map(k=>
+    `<button class="fbtn ${k==='all'?'active':''}" data-f="${k}" onclick="setListingFilter('${k}')">${labels[k]}<span class="n">${g[k]}</span></button>`
+  ).join('');
+
+  const dg={all:DAS.length};
+  DAS.forEach(o=>{dg[o.kind]=(dg[o.kind]||0)+1;});
+  const dorder=['all','Major','Modification','Minor'].filter(k=>k==='all'||dg[k]);
+  document.getElementById('da-filters').innerHTML = dorder.map(k=>
+    `<button class="fbtn ${k==='all'?'active':''}" data-f="${k}" onclick="setDaFilter('${k}')">${k==='all'?'All':k}<span class="n">${dg[k]||0}</span></button>`
+  ).join('');
+}
+function setListingFilter(k){listingFilter=k;document.querySelectorAll('#listing-filters .fbtn').forEach(b=>b.classList.toggle('active',b.dataset.f===k));renderListings();}
+function setDaFilter(k){daFilter=k;document.querySelectorAll('#da-filters .fbtn').forEach(b=>b.classList.toggle('active',b.dataset.f===k));renderDas();}
+function switchTab(t){
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===t));
+  document.getElementById('toolbar-listings').classList.toggle('hidden',t!=='listings');
+  document.getElementById('toolbar-das').classList.toggle('hidden',t!=='das');
+  document.getElementById('listings-view').classList.toggle('hidden',t!=='listings');
+  document.getElementById('das-view').classList.toggle('hidden',t!=='das');
+  t==='listings'?renderListings():renderDas();
+}
+
+async function load(){
+  const bust='?t='+Date.now();
+  const [d,da]=await Promise.all([
+    fetch('data.json'+bust).then(r=>r.json()),
+    fetch('das.json'+bust).then(r=>r.json())
+  ]);
+  LISTINGS=d; DAS=da;
+  const dates=[...d.map(x=>x.found),...da.map(x=>x.found)].filter(Boolean).sort();
+  document.getElementById('updated').textContent = dates.length?('updated '+dates[dates.length-1]):'';
+  buildFilters();
+  document.getElementById('searchListings').addEventListener('input',renderListings);
+  document.getElementById('searchDas').addEventListener('input',renderDas);
+  document.getElementById('waterOnly').addEventListener('change',renderListings);
+  renderListings();
+}
+load().catch(e=>{document.getElementById('count').textContent='Could not load feed: '+e;});
+</script>
+</body>
+</html>
