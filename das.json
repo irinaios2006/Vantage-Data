@@ -502,5 +502,29 @@
     "works": "Alterations including ground floor excavation, swimming pool and green roof.",
     "found": "2026-07-23",
     "daUrl": "https://www.planningalerts.org.au/applications/3509755"
+  },
+  {
+    "id": "24-clovelly-road-3508086",
+    "added": 21,
+    "status": "Lodged",
+    "kind": "Minor",
+    "cost": "",
+    "architect": "",
+    "firm": "",
+    "phone": "",
+    "email": "",
+    "website": "",
+    "applicant": "",
+    "drawings": "https://www.planningalerts.org.au/applications/3508086/external",
+    "notes": "",
+    "addr": "24 Clovelly Road",
+    "sub": "Randwick",
+    "pc": "2031",
+    "co": "Randwick",
+    "da": "3508086",
+    "lodged": "2026-06-18",
+    "works": "Alterations and additions to existing shop-top housing (ground-floor studio + first-floor residential unit) incl. rear extension, new lift, and a new 2-storey outbuilding (garage with studio above) addressing Challis Lane. North Randwick Heritage Conservation Area.",
+    "found": "2026-07-23",
+    "daUrl": "https://www.planningalerts.org.au/applications/3508086"
   }
 ]
