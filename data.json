@@ -1511,5 +1511,30 @@
     "found": "2026-07-30",
     "url": "https://www.commercialrealestate.com.au/property/40-42-coogee-bay-road-coogee-nsw-2034-2017918230",
     "urlExact": true
+  },
+  {
+    "id": "127-129-manning-road-woollahra",
+    "added": 72,
+    "zone": "",
+    "fsr": "",
+    "height": "",
+    "land": "442 sqm",
+    "price": "",
+    "daNo": "",
+    "auction": "",
+    "inspect": "",
+    "notes": "",
+    "status": "On market",
+    "a": "127-129 Manning Road",
+    "sub": "Woollahra",
+    "pc": "2025",
+    "co": "Woollahra",
+    "type": "Development site",
+    "wv": "Unlikely",
+    "angle": "442 sqm infill site",
+    "note": "442 sqm Woollahra site. EOI (1st City Real Estate Group).",
+    "found": "2026-07-30",
+    "url": "https://www.commercialrealestate.com.au/property/127-129-manning-road-woollahra-nsw-2025-2020806867",
+    "urlExact": true
   }
 ]

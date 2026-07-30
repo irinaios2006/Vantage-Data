@@ -742,5 +742,29 @@
     "works": "Demolition for southern opening and studio construction within garage undercroft.",
     "found": "2026-07-30",
     "daUrl": "https://www.planningalerts.org.au/applications/3508085"
+  },
+  {
+    "id": "8-cross-street-3520526",
+    "added": 33,
+    "status": "Lodged",
+    "kind": "Modification",
+    "cost": "",
+    "architect": "",
+    "firm": "",
+    "phone": "",
+    "email": "",
+    "website": "",
+    "applicant": "",
+    "drawings": "https://www.planningalerts.org.au/applications/3520526/external",
+    "notes": "",
+    "addr": "8 Cross Street",
+    "sub": "Double Bay",
+    "pc": "2028",
+    "co": "Woollahra",
+    "da": "3520526",
+    "lodged": "2026-07-17",
+    "works": "Section 4.56 modifications to approved shop-top housing development.",
+    "found": "2026-07-30",
+    "daUrl": "https://www.planningalerts.org.au/applications/3520526"
   }
 ]
