@@ -1611,5 +1611,30 @@
     "found": "2026-08-06",
     "url": "https://www.developmentready.com.au/properties/rose-bay-mixed-use-development-cnr-old-south-head-rd-30-albemarle-ave-rose-bay-nsw-2029-183763",
     "urlExact": true
+  },
+  {
+    "id": "173-blair-street-bondi",
+    "added": 76,
+    "zone": "R3",
+    "fsr": "",
+    "height": "",
+    "land": "556 m2",
+    "price": "Contact Agent",
+    "daNo": "",
+    "auction": "",
+    "inspect": "",
+    "notes": "",
+    "status": "On market",
+    "a": "173 Blair Street",
+    "sub": "Bondi",
+    "pc": "2026",
+    "co": "Waverley",
+    "type": "Development site",
+    "wv": "Unlikely",
+    "angle": "DA-approved freehold site for 3 x 4-bed strata apartments; near North Bondi Village and beach",
+    "note": "Approved for 3 x 4br apartments",
+    "url": "https://www.commercialrealestate.com.au/property/173-blair-street-bondi-nsw-2026-2021026566",
+    "urlExact": true,
+    "found": "2026-08-13"
   }
 ]
