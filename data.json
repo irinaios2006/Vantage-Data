@@ -1636,5 +1636,30 @@
   "url": "https://www.commercialrealestate.com.au/property/173-blair-street-bondi-nsw-2026-2021026566",
   "urlExact": true,
   "found": "2026-08-13"
+ },
+ {
+  "id": "59-75-grafton-street-bondi-junction",
+  "a": "59-75 Grafton Street",
+  "sub": "Bondi Junction",
+  "pc": "2022",
+  "co": "Waverley",
+  "type": "Development site",
+  "wv": "Possible",
+  "angle": "DA-approved 19-storey mixed-use, 57 apartments (FSR 6.35:1)",
+  "note": "DA-approved for a 19-storey mixed-use scheme: 57 apartments, 8,130 sqm GFA, FSR 6.35:1. Harbour/Double Bay/Rose Bay outlooks; ~$2.39m net holding income; ~100m to Bondi Junction Station. EOI closing 17 Sep 2026 (Cushman & Wakefield).",
+  "land": "1,281 sqm",
+  "price": "",
+  "zone": "MU1",
+  "fsr": "6.35:1",
+  "height": "19 storeys (approved)",
+  "daNo": "",
+  "auction": "",
+  "inspect": "",
+  "notes": "",
+  "status": "On market",
+  "url": "https://www.developmentready.com.au/properties/59-75-grafton-street-bondi-junction-nsw-2022-261141",
+  "urlExact": true,
+  "added": 77,
+  "found": "2026-08-20"
  }
 ]
