@@ -1761,5 +1761,30 @@
     "found": "2026-08-27",
     "url": "https://www.commercialrealestate.com.au/property/159-hargrave-street-paddington-nsw-2021-2021086386",
     "urlExact": true
+  },
+  {
+    "id": "23-bronte-road-bondi-junction",
+    "a": "23 Bronte Road",
+    "sub": "Bondi Junction",
+    "pc": "2022",
+    "co": "Waverley",
+    "type": "Development site",
+    "wv": "Unlikely",
+    "angle": "Prime mixed-use freehold opposite Westfield, 217 sqm",
+    "note": "Compact 217 sqm mixed-use freehold directly opposite Westfield Bondi Junction. Commercial auction scheduled 8 Sep 2026 via Raine & Horne Randwick (Craig Sewell). Retail/commercial with upper-level residential/development potential in a high-footfall retail core.",
+    "land": "217 sqm",
+    "price": "",
+    "zone": "",
+    "fsr": "",
+    "height": "",
+    "daNo": "",
+    "auction": "2026-09-08",
+    "inspect": "",
+    "notes": "",
+    "status": "On market",
+    "url": "https://www.commercialrealestate.com.au/for-sale/eastern-suburbs-nsw/development-land/",
+    "urlExact": false,
+    "added": 82,
+    "found": "2026-08-27"
   }
 ]
