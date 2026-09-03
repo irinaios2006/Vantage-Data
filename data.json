@@ -1786,5 +1786,28 @@
     "urlExact": false,
     "added": 82,
     "found": "2026-08-27"
+  },
+  {
+    "id": "14-18-20-ian-street-rose-bay",
+    "a": "14, 18-20 Ian Street",
+    "sub": "Rose Bay",
+    "pc": "2029",
+    "co": "Woollahra",
+    "type": "Development site",
+    "wv": "Likely",
+    "angle": "Waterfront / harbour redevelopment",
+    "note": "Sydney Harbour, Opera House & city views from every level",
+    "land": "2,567 m2",
+    "price": "EOI (closed 20 Nov 2025)",
+    "zone": "",
+    "fsr": "",
+    "height": "",
+    "daNo": "",
+    "auction": "",
+    "inspect": "",
+    "notes": "Proposed GFA 5,674-7,342 m2 incl. bonuses. Agent: Guillaume Volz, Colliers. EOI closed 20 Nov 2025 - confirm still available.",
+    "status": "Verify",
+    "added": 83,
+    "found": "2026-09-03"
   }
 ]
